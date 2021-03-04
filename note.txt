@@ -1,0 +1,9 @@
+
+#start a project
+'django-admin startproject mysite'
+import django
+# create an app
+'python mysite/manage.py startapp mysite/polls'
+
+# run server
+'python mysite/manage.py runserver'
